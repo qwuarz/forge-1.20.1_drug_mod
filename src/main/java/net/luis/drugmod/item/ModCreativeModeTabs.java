@@ -30,6 +30,14 @@ public class ModCreativeModeTabs {
                       pOutput.accept(ModItems.ACAPULCO_GOLD.get());
                       pOutput.accept(ModItems.AFGHANI.get());
                       pOutput.accept(ModItems.SKUNK.get());
+                      pOutput.accept(ModItems.PENJAMIN.get());
+                      pOutput.accept(ModItems.BLUNT.get());
+                      pOutput.accept(ModItems.JOINT.get());
+                      pOutput.accept(ModItems.EDIBLE_GUMMY_BEARS.get());
+                      pOutput.accept(ModItems.EDIBLE_GUMMY_CUBES.get());
+                      pOutput.accept(ModItems.GROUNDED_WEED.get());
+                      pOutput.accept(ModItems.GROUNDED_WEED_PURP.get());
+                      pOutput.accept(ModItems.EDIBLE_BROWNIE.get());
 
                     })
                     .build());

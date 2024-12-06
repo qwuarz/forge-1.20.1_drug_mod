@@ -12,6 +12,14 @@
   "item.drugmod.acapulcogold": "Acapulco Gold",
   "item.drugmod.afghani": "Afghani",
   "item.drugmod.skunk": "Skunk #1",
+  "item.drugmod.penjamin": "Penjamin",
+  "item.drugmod.blunt": "Blunt",
+  "item.drugmod.joint": "Joint",
+  "item.drugmod.ediblegummybears": "Edible Gummy Bears",
+  "item.drugmod.ediblegummycubes": "Edible Gummy Cubes",
+  "item.drugmod.groundedweed": "Grounded Weed",
+  "item.drugmod.groundedweedpurp": "Grounded Weed (Purp)",
+  "item.drugmod.ediblebrownie": "Edible Chocolate Brownie",
 
   "creativetab.drugs_tab": "Drugs"
 }

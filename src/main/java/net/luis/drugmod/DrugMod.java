@@ -57,6 +57,14 @@ public class DrugMod {
             event.accept(ModItems.ACAPULCO_GOLD);
             event.accept(ModItems.AFGHANI);
             event.accept(ModItems.SKUNK);
+            event.accept(ModItems.PENJAMIN);
+            event.accept(ModItems.BLUNT);
+            event.accept(ModItems.JOINT);
+            event.accept(ModItems.EDIBLE_GUMMY_BEARS);
+            event.accept(ModItems.EDIBLE_GUMMY_CUBES);
+            event.accept(ModItems.GROUNDED_WEED);
+            event.accept(ModItems.GROUNDED_WEED_PURP);
+            event.accept(ModItems.EDIBLE_BROWNIE);
         }
 
     }

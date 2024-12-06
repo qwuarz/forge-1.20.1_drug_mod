@@ -3,6 +3,7 @@ package net.luis.drugmod.item;
 import net.luis.drugmod.DrugMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -38,6 +39,23 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SKUNK = ITEMS.register("skunk",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PENJAMIN = ITEMS.register("penjamin",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLUNT = ITEMS.register("blunt",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> JOINT = ITEMS.register("joint",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EDIBLE_GUMMY_BEARS = ITEMS.register("ediblegummybears",
+            () -> new Item(new Item.Properties().food(ModFoods.EDIBLE_GUMMY_BEARS)));
+    public static final RegistryObject<Item> EDIBLE_GUMMY_CUBES = ITEMS.register("ediblegummycubes",
+            () -> new Item(new Item.Properties().food(ModFoods.EDIBLE_GUMMY_CUBES)));
+    public static final RegistryObject<Item> GROUNDED_WEED = ITEMS.register("groundedweed",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GROUNDED_WEED_PURP = ITEMS.register("groundedweedpurp",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EDIBLE_BROWNIE = ITEMS.register("ediblebrownie",
+            () -> new Item(new Item.Properties().food(ModFoods.EDIBLE_BROWNIE)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
