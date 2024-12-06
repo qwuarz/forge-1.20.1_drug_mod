@@ -20,6 +20,10 @@
   "item.drugmod.groundedweed": "Grounded Weed",
   "item.drugmod.groundedweedpurp": "Grounded Weed (Purp)",
   "item.drugmod.ediblebrownie": "Edible Chocolate Brownie",
+  "item.drugmod.cannabiswax": "Cannabis Wax",
+  "item.drugmod.emptycart": "Empty Cart",
+  "item.drugmod.fullcart": "Full Cart",
+  "item.drugmod.penjaminbattery": "Penjamin Battery",
 
   "creativetab.drugs_tab": "Drugs"
 }

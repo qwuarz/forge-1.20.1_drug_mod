@@ -1,6 +1,6 @@
-package net.luis.drugmod.item;
+package net.qwuarz.drugmod.item;
 
-import net.luis.drugmod.DrugMod;
+import net.qwuarz.drugmod.DrugMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -55,6 +55,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EDIBLE_BROWNIE = ITEMS.register("ediblebrownie",
             () -> new Item(new Item.Properties().food(ModFoods.EDIBLE_BROWNIE)));
+    public static final RegistryObject<Item> CANNABIS_WAX = ITEMS.register("cannabiswax",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMPTY_CART = ITEMS.register("emptycart",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FULL_CART = ITEMS.register("fullcart",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PENJAMIN_BATTERY = ITEMS.register("penjaminbattery",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

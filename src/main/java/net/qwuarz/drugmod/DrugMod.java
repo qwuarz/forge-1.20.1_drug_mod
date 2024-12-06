@@ -1,9 +1,9 @@
-package net.luis.drugmod;
+package net.qwuarz.drugmod;
 
 import com.mojang.logging.LogUtils;
-import net.luis.drugmod.block.ModBlocks;
-import net.luis.drugmod.item.ModCreativeModeTabs;
-import net.luis.drugmod.item.ModItems;
+import net.qwuarz.drugmod.block.ModBlocks;
+import net.qwuarz.drugmod.item.ModCreativeModeTabs;
+import net.qwuarz.drugmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -64,6 +64,10 @@ public class DrugMod {
             event.accept(ModItems.GROUNDED_WEED.get());
             event.accept(ModItems.GROUNDED_WEED_PURP.get());
             event.accept(ModItems.EDIBLE_BROWNIE.get());
+            event.accept(ModItems.CANNABIS_WAX.get());
+            event.accept(ModItems.EMPTY_CART.get());
+            event.accept(ModItems.FULL_CART.get());
+            event.accept(ModItems.PENJAMIN_BATTERY.get());
         }
     }
 

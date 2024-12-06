@@ -1,7 +1,7 @@
-package net.luis.drugmod.block;
+package net.qwuarz.drugmod.block;
 
-import net.luis.drugmod.DrugMod;
-import net.luis.drugmod.item.ModItems;
+import net.qwuarz.drugmod.DrugMod;
+import net.qwuarz.drugmod.item.ModItems;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

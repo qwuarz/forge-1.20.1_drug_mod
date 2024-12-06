@@ -1,4 +1,4 @@
-package net.luis.drugmod.item;
+package net.qwuarz.drugmod.item;
 
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.effect.MobEffectInstance;

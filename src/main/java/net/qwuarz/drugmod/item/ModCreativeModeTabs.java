@@ -1,6 +1,6 @@
-package net.luis.drugmod.item;
+package net.qwuarz.drugmod.item;
 
-import net.luis.drugmod.DrugMod;
+import net.qwuarz.drugmod.DrugMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -38,6 +38,10 @@ public class ModCreativeModeTabs {
                       pOutput.accept(ModItems.GROUNDED_WEED.get());
                       pOutput.accept(ModItems.GROUNDED_WEED_PURP.get());
                       pOutput.accept(ModItems.EDIBLE_BROWNIE.get());
+                      pOutput.accept(ModItems.CANNABIS_WAX.get());
+                      pOutput.accept(ModItems.EMPTY_CART.get());
+                      pOutput.accept(ModItems.FULL_CART.get());
+                      pOutput.accept(ModItems.PENJAMIN_BATTERY.get());
 
                     })
                     .build());
