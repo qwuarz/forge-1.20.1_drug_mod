@@ -38,49 +38,45 @@ public class DrugMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        // Common setup code
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.OG_KUSH);
-            event.accept(ModItems.SOUR_DIESEL);
-            event.accept(ModItems.MARS_OG);
-            event.accept(ModItems.WEDDING_CAKE);
-            event.accept(ModItems.TRIANGLE_KUSH);
-            event.accept(ModItems.ANIMAL_MINTS);
-            event.accept(ModItems.SUNSET_SHERBERT);
-            event.accept(ModItems.THIN_MINT_COOKIES);
-            event.accept(ModItems.GELATO);
-            event.accept(ModItems.COLOMBIAN_GOLD);
-            event.accept(ModItems.ACAPULCO_GOLD);
-            event.accept(ModItems.AFGHANI);
-            event.accept(ModItems.SKUNK);
-            event.accept(ModItems.PENJAMIN);
-            event.accept(ModItems.BLUNT);
-            event.accept(ModItems.JOINT);
-            event.accept(ModItems.EDIBLE_GUMMY_BEARS);
-            event.accept(ModItems.EDIBLE_GUMMY_CUBES);
-            event.accept(ModItems.GROUNDED_WEED);
-            event.accept(ModItems.GROUNDED_WEED_PURP);
-            event.accept(ModItems.EDIBLE_BROWNIE);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.OG_KUSH.get());
+            event.accept(ModItems.SOUR_DIESEL.get());
+            event.accept(ModItems.MARS_OG.get());
+            event.accept(ModItems.WEDDING_CAKE.get());
+            event.accept(ModItems.TRIANGLE_KUSH.get());
+            event.accept(ModItems.ANIMAL_MINTS.get());
+            event.accept(ModItems.SUNSET_SHERBERT.get());
+            event.accept(ModItems.THIN_MINT_COOKIES.get());
+            event.accept(ModItems.GELATO.get());
+            event.accept(ModItems.COLOMBIAN_GOLD.get());
+            event.accept(ModItems.ACAPULCO_GOLD.get());
+            event.accept(ModItems.AFGHANI.get());
+            event.accept(ModItems.SKUNK.get());
+            event.accept(ModItems.PENJAMIN.get());
+            event.accept(ModItems.BLUNT.get());
+            event.accept(ModItems.JOINT.get());
+            event.accept(ModItems.EDIBLE_GUMMY_BEARS.get());
+            event.accept(ModItems.EDIBLE_GUMMY_CUBES.get());
+            event.accept(ModItems.GROUNDED_WEED.get());
+            event.accept(ModItems.GROUNDED_WEED_PURP.get());
+            event.accept(ModItems.EDIBLE_BROWNIE.get());
         }
-
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
+        // Server starting code
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            // Client setup code
         }
     }
 }
