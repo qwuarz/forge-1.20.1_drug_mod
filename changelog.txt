@@ -29,6 +29,7 @@ PRE-ALPHA v0.3 // Added Cannabis Wax, Empty Cart, Full Cart, and Penjamin Batter
 PRE-ALPHA v0.5 // Added Raw Papers and Blunt Wraps
 Added Crafting for Raw Papers, Blunt Wraps, Blunts and Joints
 Made the Blunts and Joints seperated by NBT so when you craft them with certain strains, they then give certain effects based on the strain used
+Rebalanced Penjamin so Regen doesn't last as long
 Made the Weed Seed (Generic Weed Seed) functionable, once the plant fully grows it drops 1 OG Kush nug
 
 Crafting for 
