@@ -35,7 +35,7 @@ public class PenjaminItem extends Item {
                 if (RANDOM.nextInt(4) == 0) { // 25% chance to apply confusion effect
                     player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 180, 0));
                 }
-                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 400, 1));
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 450, 1));
             }
 
             if (level.isClientSide) {
