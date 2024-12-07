@@ -1,6 +1,6 @@
-PRE-ALPHA // 13 Different Strains (OG Kush, Sour Diesel, Mars OG, Wedding Cake, Triangle Kush, Animal Mints, Sunset Sherbert, Thin Mint Cookies, Gelato, Colombian Gold, Acapulco Gold, Afhgani, and Skunk)
+PRE-ALPHA // 13 Different Strains (OG Kush, Sour Diesel, Mars OG, Wedding Cake, Triangle Kush, Animal Mints, Sunset Sherbert, Thin Mint Cookies, Gelato, Colombian Gold, Acapulco Gold, Afhgani, and Skunk) (Only Creative items for rn)
 
-===========================
+=============================
 
 PRE-ALPHA v0.1 // Added 3 new edibles that you can consume (Edible Gummy Bears -> gives Absorption, Edible Gummy Cubes -> gives Movment Speed, and Edible Brownie -> gives Damage Boost)
         Added a Blunt (non-functional)
@@ -8,11 +8,21 @@ PRE-ALPHA v0.1 // Added 3 new edibles that you can consume (Edible Gummy Bears -
         Added a Weed Pen (Penjamin) (non-functionable)
         Added 2 versions of Ground Up Weed (Grounded Weed, Grounded Weed Purp) (non-functionable)
 
-===========================
+=============================
 
 PRE-ALPHA v0.2 // Made the Penjamin a usable item
         Gives Regeneration 2 and a 25% chance to give Nausea
         Gave it a durability of 60 and a simple smoke effect
 
-===========================
+=============================
+
+PRE-ALPHA v0.3 // Added Cannabis Wax, Empty Cart, Full Cart, and Penjamin Battery
+        Made them all craftable along with the Penjamin itself (Subject to change)
+        Cannabis Wax -> 8 slime balls with honey bottle in the middle
+        Empty Cart -> 8 iron ingots with redstone in the middle
+        Full Cart -> Empty cart and Cannabis Wax
+        Penjamin Battery -> 8 iron ingots with gold ingot in the middle
+        Penjamin -> Full cart and Penjamin Battery
+
+==============================
 
