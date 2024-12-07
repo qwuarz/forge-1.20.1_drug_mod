@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:afghani"
+    },
+    {
+      "item": "drugmod:afghani"
+    },
+    {
+      "item": "drugmod:afghani"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Afghani\"}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:ogkush"
+    },
+    {
+      "item": "drugmod:ogkush"
+    },
+    {
+      "item": "drugmod:ogkush"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"OG_Kush\"}"
+  }
+}

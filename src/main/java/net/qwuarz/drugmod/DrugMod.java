@@ -2,8 +2,8 @@ package net.qwuarz.drugmod;
 
 import com.mojang.logging.LogUtils;
 import net.qwuarz.drugmod.block.ModBlocks;
-import net.qwuarz.drugmod.item.ModCreativeModeTabs;
 import net.qwuarz.drugmod.item.ModItems;
+import net.qwuarz.drugmod.item.ModCreativeModTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,10 +26,11 @@ public class DrugMod {
     public DrugMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModeTabs.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
@@ -61,13 +62,14 @@ public class DrugMod {
             event.accept(ModItems.JOINT.get());
             event.accept(ModItems.EDIBLE_GUMMY_BEARS.get());
             event.accept(ModItems.EDIBLE_GUMMY_CUBES.get());
-            event.accept(ModItems.GROUNDED_WEED.get());
-            event.accept(ModItems.GROUNDED_WEED_PURP.get());
             event.accept(ModItems.EDIBLE_BROWNIE.get());
             event.accept(ModItems.CANNABIS_WAX.get());
             event.accept(ModItems.EMPTY_CART.get());
             event.accept(ModItems.FULL_CART.get());
             event.accept(ModItems.PENJAMIN_BATTERY.get());
+            event.accept(ModItems.RAW_PAPERS.get());
+            event.accept(ModItems.WEED_SEED.get());
+
         }
     }
 

@@ -17,13 +17,14 @@
   "item.drugmod.joint": "Joint",
   "item.drugmod.ediblegummybears": "Edible Gummy Bears",
   "item.drugmod.ediblegummycubes": "Edible Gummy Cubes",
-  "item.drugmod.groundedweed": "Grounded Weed",
-  "item.drugmod.groundedweedpurp": "Grounded Weed (Purp)",
   "item.drugmod.ediblebrownie": "Edible Chocolate Brownie",
   "item.drugmod.cannabiswax": "Cannabis Wax",
   "item.drugmod.emptycart": "Empty Cart",
   "item.drugmod.fullcart": "Full Cart",
   "item.drugmod.penjaminbattery": "Penjamin Battery",
+  "item.drugmod.weed_seed": "Generic Weed Seed",
+  "item.drugmod.rawpapers": "Raw Papers",
+  "item.drugmod.bluntwraps": "Blunt Wraps",
 
-  "creativetab.drugs_tab": "Drugs"
+  "creativetab.drugstab": "Drugs"
 }

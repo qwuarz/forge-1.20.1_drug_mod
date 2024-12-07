@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:colombiangold"
+    },
+    {
+      "item": "drugmod:colombiangold"
+    },
+    {
+      "item": "drugmod:colombiangold"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Colombian_Gold\"}"
+  }
+}

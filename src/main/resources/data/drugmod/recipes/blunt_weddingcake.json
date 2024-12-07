@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:weddingcake"
+    },
+    {
+      "item": "drugmod:weddingcake"
+    },
+    {
+      "item": "drugmod:weddingcake"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Wedding_Cake\"}"
+  }
+}

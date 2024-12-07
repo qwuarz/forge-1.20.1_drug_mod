@@ -1,6 +1,9 @@
 package net.qwuarz.drugmod.block;
 
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.qwuarz.drugmod.DrugMod;
+import net.qwuarz.drugmod.block.custom.WeedCropBlock;
 import net.qwuarz.drugmod.item.ModItems;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +18,9 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, DrugMod.MOD_ID);
+
+    public static final RegistryObject<Block> WEED_CROP = BLOCKS.register("weedcrop",
+            () -> new WeedCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
 

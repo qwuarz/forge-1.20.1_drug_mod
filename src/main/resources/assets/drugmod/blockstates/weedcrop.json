@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "drugmod:block/weedstage0" },
+    "age=1": { "model": "drugmod:block/weedstage1" },
+    "age=2": { "model": "drugmod:block/weedstage2" },
+    "age=3": { "model": "drugmod:block/weedstage3" },
+    "age=4": { "model": "drugmod:block/weedstage4" },
+    "age=5": { "model": "drugmod:block/weedstage5" },
+    "age=6": { "model": "drugmod:block/weedstage6" },
+    "age=7": { "model": "drugmod:block/weedstage7" }
+  }
+}

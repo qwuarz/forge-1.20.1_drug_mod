@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:animalmints"
+    },
+    {
+      "item": "drugmod:animalmints"
+    },
+    {
+      "item": "drugmod:animalmints"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Animal_Mints\"}"
+  }
+}

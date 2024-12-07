@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:trianglekush"
+    },
+    {
+      "item": "drugmod:trianglekush"
+    },
+    {
+      "item": "drugmod:trianglekush"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Triangle_Kush\"}"
+  }
+}

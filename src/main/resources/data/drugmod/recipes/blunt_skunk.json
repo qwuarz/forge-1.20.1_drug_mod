@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:bluntwraps"
+    },
+    {
+      "item": "drugmod:skunk"
+    },
+    {
+      "item": "drugmod:skunk"
+    },
+    {
+      "item": "drugmod:skunk"
+    }
+  ],
+  "result": {
+    "item": "drugmod:blunt",
+    "count": 1,
+    "nbt": "{strain:\"Skunk\"}"
+  }
+}

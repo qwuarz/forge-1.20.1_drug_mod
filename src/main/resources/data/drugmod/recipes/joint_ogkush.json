@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "drugmod:rawpapers"
+    },
+    {
+      "item": "drugmod:ogkush"
+    }
+  ],
+  "result": {
+    "item": "drugmod:joint",
+    "count": 1,
+    "nbt": "{strain:\"OG_Kush\"}"
+  }
+}
